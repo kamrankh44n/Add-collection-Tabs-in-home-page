@@ -1,0 +1,11 @@
+  <div>
+      <ul class="tabs">
+        {% for block in section.blocks %}
+        <li><a href="#tab-{{ forloop.index }}">{{ block.settings.tab_heading }}</a></li>
+        {% endfor %}
+      </ul>
+          {% for block in section.blocks %}
+      <div id="tab-{{ forloop.index }}">
+      HERE YOU WILL INCLUDE THE SLIDER COMPONENT FROM FEATURED COLLECTION.
+       </div>
+{% endfor %}
