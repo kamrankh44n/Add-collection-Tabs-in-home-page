@@ -1,0 +1,26 @@
+,
+  
+  "blocks": [
+    {
+      "type": "Tab",
+      "name": "tab header",
+      "settings": [
+        {
+          "id": "tab_heading",
+          "type": "text",
+          "label": "heading"
+        },
+        {
+      "type": "text",
+      "id": "title",
+      "default": "Featured collection",
+      "label": "t:sections.featured-collection.settings.title.label"
+    },
+        {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured-collection.settings.collection.label"
+    }
+      ]
+    }
+  ],
